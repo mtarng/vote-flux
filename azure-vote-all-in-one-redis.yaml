@@ -47,7 +47,7 @@ spec:
     spec:
       containers:
       - name: azure-vote-front
-        image: fluxvoteacr.azurecr.io/azure-vote-front:v1
+        image: fluxvoteacr.azurecr.io/azure-vote-front:v4
         ports:
         - containerPort: 80
         resources:
