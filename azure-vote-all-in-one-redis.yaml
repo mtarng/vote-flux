@@ -1,3 +1,4 @@
+---
 apiVersion: apps/v1beta1
 kind: Deployment
 metadata:
@@ -36,7 +37,7 @@ spec:
     rollingUpdate:
       maxSurge: 1
       maxUnavailable: 1
-  minReadySeconds: 5 
+  minReadySeconds: 5
   template:
     metadata:
       labels:
@@ -44,7 +45,7 @@ spec:
     spec:
       containers:
       - name: azure-vote-front
-        image: fluxvoteacr.azurecr.io/azure-vote-front:v2
+        image: fluxvoteacr.azurecr.io/azure-vote-front:v1
         ports:
         - containerPort: 80
         resources:
@@ -57,7 +58,6 @@ spec:
           value: "azure-vote-back"
       imagePullSecrets:
       - name: acr-auth
-     
 ---
 apiVersion: v1
 kind: Service
