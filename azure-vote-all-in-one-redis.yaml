@@ -72,9 +72,9 @@ kind: Service
 metadata:
   name: mysvc
   annotations:
-        service.beta.kubernetes.io/azure-load-balancer-resource-group: sarath-flux-tm-rg1
+        service.beta.kubernetes.io/azure-load-balancer-resource-group: sarath-flux-tm-rg
 spec:
-  loadBalancerIP: 52.247.219.108
+  loadBalancerIP: 52.229.60.60
   type: LoadBalancer
   ports:
   - port: 80
