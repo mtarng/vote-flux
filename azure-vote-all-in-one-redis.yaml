@@ -74,7 +74,7 @@ metadata:
   annotations:
         service.beta.kubernetes.io/azure-load-balancer-resource-group: sarath-flux-tm-rg
 spec:
-  loadBalancerIP: 52.191.185.134
+  loadBalancerIP: 13.77.170.76
   type: LoadBalancer
   ports:
   - port: 80
