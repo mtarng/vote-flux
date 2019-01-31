@@ -72,7 +72,7 @@ kind: Service
 metadata:
   name: mysvc
 spec:
-  loadBalancerIP: 52.247.238.159
+  loadBalancerIP: 13.66.191.135
   type: LoadBalancer
   ports:
   - port: 80
