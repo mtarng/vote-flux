@@ -74,7 +74,7 @@ metadata:
     service.beta.kubernetes.io/azure-load-balancer-resource-group: spin-rg
   name: mysvc
 spec:
-  loadBalancerIP: 13.66.191.135
+  loadBalancerIP: 52.191.172.203
   type: LoadBalancer
   ports:
   - port: 80
