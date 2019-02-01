@@ -70,6 +70,8 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
+  annotations:
+    service.beta.kubernetes.io/azure-load-balancer-resource-group: spin-rg
   name: mysvc
 spec:
   loadBalancerIP: 13.66.191.135
